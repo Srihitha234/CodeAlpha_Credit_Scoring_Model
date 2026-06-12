@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+
+application_train.csv
+application_test.csv
+bureau.csv
+bureau_balance.csv
+credit_card_balance.csv
+installments_payments.csv
+POS_CASH_balance.csv
+previous_application.csv
+
+*.pkl
