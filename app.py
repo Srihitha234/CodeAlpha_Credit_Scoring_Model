@@ -111,16 +111,16 @@ if st.button("Predict Creditworthiness"):
     
     st.progress(float(probability))
     risk_percent = probability * 100
-if risk_percent >= 60:
-    st.error("🔴 High Risk Customer")
+    if risk_percent >= 60:
+        st.error("🔴 High Risk Customer")
 
-elif risk_percent >= 40:
-    st.warning("🟡 Medium Risk Customer")
+    elif risk_percent >= 40:
+        st.warning("🟡 Medium Risk Customer")
 
-else:
-    st.success("🟢 Creditworthy Customer")
+    else:
+        st.success("🟢 Creditworthy Customer")
 
-st.metric(
+    st.metric(
         "Default Probability",
         f"{probability * 100:.2f}%"
     )
