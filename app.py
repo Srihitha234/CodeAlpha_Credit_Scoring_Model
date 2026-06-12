@@ -108,9 +108,9 @@ if st.button("Predict Creditworthiness"):
 
     st.subheader("Prediction Result")
 
-    risk_percent = probability * 100
+    
     st.progress(float(probability))
-
+    risk_percent = probability * 100
 if risk_percent >= 60:
     st.error("🔴 High Risk Customer")
 
