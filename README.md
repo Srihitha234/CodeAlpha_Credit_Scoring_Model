@@ -6,6 +6,9 @@ Predict an individual's creditworthiness using past financial data.
 ## Dataset
 Home Credit Default Risk Dataset
 
+## Live Demo
+https://codealphacreditscoringmodel-ig5eoywbfxz8ba4atmguk8.streamlit.app
+
 ## Features
 - Data Cleaning
 - Missing Value Handling
